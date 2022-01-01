@@ -1,7 +1,6 @@
 pipeline {
     agent any
     stages {
-        stage('Copy secrets file') {
         stage('Helm Dry Run') {
             agent {
                 docker {

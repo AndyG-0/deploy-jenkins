@@ -8,7 +8,7 @@ image:
   repository: registry-192.168.1.38.nip.io/jenkins
   pullPolicy: IfNotPresent
   # Overrides the image tag whose default is the chart appVersion.
-  tag: ""
+  tag: "lts"
 
 persistence:
   accessMode: 'ReadWriteMany'
